@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1, h2, h3 {
+    color: #1D0D14;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+p, a {
+    color: #2D282A;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.active {
+    color: #1D0D14;
+}
+
+h1 {
+    font-size: 4.75rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1.375rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.56;
+    font-family: 'Roboto', sans-serif;
+}
