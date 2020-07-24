@@ -106,6 +106,7 @@ export const pageQuery = graphql`
     }
     posts: allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/posts/" } }
+      limit: 3
     ) {
       edges {
         node {

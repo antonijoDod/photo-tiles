@@ -7,7 +7,7 @@ const SharedHero = ({heroImage, title, description}) => {
         Tag="section"
         fluid={heroImage.childImageSharp.fluid}
         >
-            <div className="container mx-auto py-24">
+            <div className="container mx-auto py-32 px-4">
             <h1 className="text-4xl md:text-5xl xl:text-7xl text-gray-900">{title}</h1>
                 <p className="mt-4">
                   {description}

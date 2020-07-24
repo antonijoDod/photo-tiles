@@ -105,16 +105,15 @@ const Header = ({ siteTitle }) => {
                 <li>
                     <Link to="/" className="px-3 py-2 flex items-center text-xs uppercase font-bold  hover:text-gray-600">
                       <i className="fab fa-facebook-square text-lg leading-lg text-gray-500" />
-                      <span className="ml-2">Naslovna</span>
+                      <span className="ml-2">Home</span>
                     </Link>
                 </li>
                 <li>
-                    <Link to="/kontakt"
+                    <Link to="/blog"
                       className="px-3 py-2 flex items-center text-xs uppercase font-bold hover:text-gray-600"
-                      to="/learning-lab/tailwind-starter-kit/documentation/quick-start"
                     >
                       <i className="far fa-file-alt text-lg leading-lg text-gray-500" />
-                      <span className="ml-2">Kontakt</span>
+                      <span className="ml-2">Blog</span>
                     </Link>
                 </li>
               </ul>
