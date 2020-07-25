@@ -1,6 +1,6 @@
 ---
 title: Easy and fast
-description: Super EASY and SUPER Fast
+description: Vestibulum ut ipsum vestibulum, tincidunt massa non, lobortis lacus. Integer felis tellus, malesuada non nisl varius, posuere fringilla ligula.
 date: '26-07-2020'
 slug: '/blog/easy-and-fast'
 image: './easyandfast.jpg'

@@ -1,6 +1,6 @@
 ---
 title: Super new app
-description: New app, new age
+description: Vestibulum ut ipsum vestibulum, tincidunt massa non, lobortis lacus. Integer felis tellus, malesuada non nisl varius, posuere fringilla ligula.
 date: '27-07-2020'
 slug: '/blog/super-new-app'
 image: './app.jpg'

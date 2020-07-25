@@ -1,6 +1,6 @@
 ---
 title: Unclassic app
-description: Yes, this is the unclassic app
+description: Vestibulum ut ipsum vestibulum, tincidunt massa non, lobortis lacus. Integer felis tellus, malesuada non nisl varius, posuere fringilla ligula.
 date: '24-07-2020'
 slug: '/blog/unclassic-app'
 image: './unclasic.jpg'

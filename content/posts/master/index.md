@@ -1,6 +1,6 @@
 ---
 title: Master time
-description: Time it's for mastering time
+description: Vestibulum ut ipsum vestibulum, tincidunt massa non, lobortis lacus. Integer felis tellus, malesuada non nisl varius, posuere fringilla ligula.
 date: '02-07-2020'
 slug: '/blog/master-time'
 image: './time600.jpg'

@@ -1,5 +1,5 @@
 ---
-sectionTitle: 'How this app work?'
+sectionTitle: 'How this app works?'
 cardOneIcon: '
 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M48 23.9993C48 37.255 37.255 48 24.0007 48C10.7451 48 0 37.255 0 23.9993C0 10.7451 10.7451 1.28662e-06 24.0007 1.28662e-06C37.255 1.28662e-06 48 10.7451 48 23.9993Z" fill="#F20977"/>
