@@ -1,7 +1,7 @@
 ---
 title: Super new app
 description: New app, new age
-date: '21-07-2020'
+date: '27-07-2020'
 slug: '/blog/super-new-app'
 image: './app.jpg'
 ---

@@ -1,7 +1,7 @@
 ---
 title: Unclassic app
 description: Yes, this is the unclassic app
-date: '22-07-2020'
+date: '24-07-2020'
 slug: '/blog/unclassic-app'
 image: './unclasic.jpg'
 ---

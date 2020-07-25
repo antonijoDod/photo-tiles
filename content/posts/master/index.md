@@ -1,7 +1,7 @@
 ---
 title: Master time
 description: Time it's for mastering time
-date: '25-07-2020'
+date: '02-07-2020'
 slug: '/blog/master-time'
 image: './time600.jpg'
 ---
