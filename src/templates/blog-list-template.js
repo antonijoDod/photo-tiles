@@ -12,7 +12,7 @@ const BlogList = props => {
       <SharedHero
         heroImage={props.data.placeholderImage}
         title="Blog"
-        description="Maecenas mattis, tortor non imperdiet porttitor, nisl quam pulvinar massa, eget lacinia elit justo non mi."
+        description="Maecena mattis, tortor non imperdiet porttitor, nisl quam pulvinar massa, eget lacinia elit justo non mi."
       />
       <div className="section py-24">
         <div className="container mx-auto px-4">
