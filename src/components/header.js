@@ -106,6 +106,7 @@ const Header = ({ siteTitle }) => {
                   <Link
                     to="/"
                     className="px-3 py-2 flex items-center text-xs uppercase font-bold  hover:text-gray-600"
+                    activeClassName="active"
                   >
                     <i className="fab fa-facebook-square text-lg leading-lg text-gray-500" />
                     <span className="ml-2">Home</span>
@@ -114,6 +115,7 @@ const Header = ({ siteTitle }) => {
                 <li>
                   <Link
                     to="/blog"
+                    activeClassName="active"
                     className="px-3 py-2 flex items-center text-xs uppercase font-bold hover:text-gray-600"
                   >
                     <i className="far fa-file-alt text-lg leading-lg text-gray-500" />

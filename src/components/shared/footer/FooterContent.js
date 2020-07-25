@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 const FooterContent = () => {
   return (
     <div className="px-4">
-      <div className="flex">
-        <div className="w-1/3">
+      <div className="sm:flex">
+        <div className="sm:w-1/3">
           <Link
             to="/"
             className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-gray-100"
@@ -60,7 +60,7 @@ const FooterContent = () => {
             mattis.
           </p>
         </div>
-        <div className="w-1/3">
+        <div className="sm:w-1/3">
           <h4 className="mt-4">Contact us</h4>
           <ul className="mt-5">
             <li>
@@ -75,7 +75,7 @@ const FooterContent = () => {
             </li>
           </ul>
         </div>
-        <div className="w-1/3">
+        <div className="sm:w-1/3">
           <h4 className="mt-4">Newsletter</h4>
           <form className="mt-5" onSubmit={(e) => e.preventDefault()}>
             <input

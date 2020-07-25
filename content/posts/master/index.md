@@ -1,12 +1,12 @@
 ---
-title: Unclassic app
-description: Yes, this is the unclassic app
-date: '22-07-2020'
-slug: '/blog/unclassic-app'
-image: './unclasic.jpg'
+title: Master time
+description: Time it's for mastering time
+date: '25-07-2020'
+slug: '/blog/master-time'
+image: './time600.jpg'
 ---
 
-![Image Alt](./img1.jpg)
+![Image Alt](./time1500.jpg)
 
 ## Problem
 

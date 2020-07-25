@@ -21,7 +21,7 @@ const Started = () => {
               </Link>
             </div>
           </div>
-          <div className="w-2/4 sm:w-3/12 ml-auto mt-16 sm:mt-0">
+          <div className="w-2/4 sm:w-3/12 ml-auto mt-16 sm:mt-0 pr-1">
             <svg
               width="48"
               height="48"

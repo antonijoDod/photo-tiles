@@ -14,8 +14,12 @@ h1, h2, h3, h4 {
     font-weight: 600;
 }
 
-p, a {
+p {
     color: #2D282A;
+}
+
+a {
+    color: rgb(107, 85, 93);
 }
 
 a {

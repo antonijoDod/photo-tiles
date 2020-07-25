@@ -11,7 +11,7 @@ const postTemplate = ({ data }) => {
   return (
     <Layout>
       <SharedHero heroImage={data.placeholderImage} title={title} description={description}/>
-      <div className="container mx-auto px-4" dangerouslySetInnerHTML={{__html: html}} />
+      <div className="w-1/2 mx-auto px-4 mt-16 mb-24" dangerouslySetInnerHTML={{__html: html}} />
     </Layout>
   )
 }
