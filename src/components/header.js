@@ -103,18 +103,31 @@ const Header = ({ siteTitle }) => {
             >
               <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                 <li>
-                    <Link to="/" className="px-3 py-2 flex items-center text-xs uppercase font-bold  hover:text-gray-600">
-                      <i className="fab fa-facebook-square text-lg leading-lg text-gray-500" />
-                      <span className="ml-2">Home</span>
-                    </Link>
+                  <Link
+                    to="/"
+                    className="px-3 py-2 flex items-center text-xs uppercase font-bold  hover:text-gray-600"
+                  >
+                    <i className="fab fa-facebook-square text-lg leading-lg text-gray-500" />
+                    <span className="ml-2">Home</span>
+                  </Link>
                 </li>
                 <li>
-                    <Link to="/blog"
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold hover:text-gray-600"
-                    >
-                      <i className="far fa-file-alt text-lg leading-lg text-gray-500" />
-                      <span className="ml-2">Blog</span>
-                    </Link>
+                  <Link
+                    to="/blog"
+                    className="px-3 py-2 flex items-center text-xs uppercase font-bold hover:text-gray-600"
+                  >
+                    <i className="far fa-file-alt text-lg leading-lg text-gray-500" />
+                    <span className="ml-2">Blog</span>
+                  </Link>
+                </li>
+                <li className="ml-4">
+                  <Link
+                    className="text-white flex items-center px-4 py-1 rounded-lg bg-pink-500 shadow-xl hover:bg-pink-700"
+                    style={{ transition: "all .15s ease" }}
+                    to="!#"
+                  >
+                    Get started
+                  </Link>
                 </li>
               </ul>
             </div>

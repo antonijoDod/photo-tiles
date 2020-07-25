@@ -9,7 +9,7 @@ import Hero from "../components/landing/hero/Hero"
 import Intro from "../components/landing/intro/Intro"
 import Download from "../components/landing/download/Download"
 import News from "../components/landing/news/News"
-import Started from "../components/landing/started/Started"
+import Started from "../components/shared/started/Started"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -18,7 +18,6 @@ const IndexPage = ({ data }) => (
     <Intro data={data.intro.edges} />
     <Download data={data.download.edges} />
     <News data={data.posts.edges} />
-    <Started />
   </Layout>
 )
 

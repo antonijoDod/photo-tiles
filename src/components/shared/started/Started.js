@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 const Started = () => {
   return (
-    <section>
       <div className="container mx-auto px-4 pb-24">
         <div className="flex flex-wrap">
           <div className="w-full sm:w-5/12">
@@ -90,7 +89,6 @@ const Started = () => {
           </div>
         </div>
       </div>
-    </section>
   )
 }
 
