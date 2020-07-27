@@ -18,8 +18,22 @@ const Download = ({ data }) => {
       <div className="container mx-auto">
         <div className="md:flex py-24 px-4 items-center">
           <div className="md:w-8/12 mr-10">
-            <h2 className="text-4xl md:text-5xl">Super easy app</h2>
-            <p className="my-5">
+            <h2
+              className="text-4xl md:text-5xl"
+              data-sal="slide-up"
+              data-sal-delay="100"
+              data-sal-easing="ease-out"
+              data-sal-duration="500"
+            >
+              Super easy app
+            </h2>
+            <p
+              className="my-5"
+              data-sal="slide-up"
+              data-sal-delay="100"
+              data-sal-easing="ease-out"
+              data-sal-duration="200"
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               elementum ante non magna rutrum suscipit. Curabitur mollis congue
               feugiat. Duis ac lectus augue. Vivamus ut lobortis turpis.
@@ -37,6 +51,10 @@ const Download = ({ data }) => {
                 className="inline-block text-white font-bold px-8 py-5 rounded-lg bg-pink-500 shadow-xl hover:bg-pink-700"
                 style={{ transition: "all .15s ease" }}
                 to={downloadButtonUrl}
+                data-sal="slide-up"
+                data-sal-delay="100"
+                data-sal-easing="ease-out"
+                data-sal-duration="300"
               >
                 <div className="flex">
                   <div>

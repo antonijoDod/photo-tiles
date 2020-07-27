@@ -19,9 +19,23 @@ const Intro = ({ data }) => {
   return (
     <section>
       <div className="container mx-auto py-24 px-4">
-        <h2 className="text-4xl md:text-5xl">{sectionTitle}</h2>
+        <h2
+          className="text-4xl md:text-5xl"
+          data-sal="slide-up"
+          data-sal-delay="100"
+          data-sal-easing="ease-out"
+          data-sal-duration="500"
+        >
+          {sectionTitle}
+        </h2>
         <div className="md:flex mt-16">
-          <div className="flex-1">
+          <div
+            className="flex-1"
+            data-sal="slide-up"
+            data-sal-delay="200"
+            data-sal-easing="ease-out"
+            data-sal-duration="500"
+          >
             <svg
               width="48"
               height="48"
@@ -50,12 +64,16 @@ const Intro = ({ data }) => {
                 fill="white"
               />
             </svg>
-  <h3 className="my-5">{cardOneTitle}</h3>
-            <p>
-             {cardOneDescription}
-            </p>
+            <h3 className="my-5">{cardOneTitle}</h3>
+            <p>{cardOneDescription}</p>
           </div>
-          <div className="flex-1 my-16 md:my-0 md:mx-24">
+          <div
+            className="flex-1 my-16 md:my-0 md:mx-24"
+            data-sal="slide-up"
+            data-sal-delay="300"
+            data-sal-easing="ease-out"
+            data-sal-duration="500"
+          >
             <svg
               width="48"
               height="48"
@@ -84,12 +102,16 @@ const Intro = ({ data }) => {
                 fill="white"
               />
             </svg>
-  <h3 className="my-5">{cardTwoTitle}</h3>
-            <p>
-             {cardTwoDescription}
-            </p>
+            <h3 className="my-5">{cardTwoTitle}</h3>
+            <p>{cardTwoDescription}</p>
           </div>
-          <div className="flex-1">
+          <div
+            className="flex-1"
+            data-sal="slide-up"
+            data-sal-delay="400"
+            data-sal-easing="ease-out"
+            data-sal-duration="500"
+          >
             <svg
               width="48"
               height="48"
@@ -119,9 +141,7 @@ const Intro = ({ data }) => {
               />
             </svg>
             <h3 className="my-5">{cardThreeTitle}</h3>
-            <p>
-            {cardThreeDescription}
-            </p>
+            <p>{cardThreeDescription}</p>
           </div>
         </div>
       </div>
